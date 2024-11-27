@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Creditos"
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/titulo12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fondo_etiquetas"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Rodrigo Olmos Gomez"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/fondo_boton"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/titulo13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fondo_etiquetas"
+        android:gravity="center"
+        android:padding="16dp"
+        android:backgroundTint="@color/fondo_boton"
+        android:text="7cm1"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/titulo14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fondo_etiquetas"
+        android:gravity="center"
+        android:padding="16dp"
+        android:backgroundTint="@color/fondo_boton"
+        android:text="rolmosg1800@alumno.ipn.mx"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bt_Regresar"
+        android:layout_width="206dp"
+        android:backgroundTint="@color/fondo_etiquetas"
+        android:layout_height="154dp"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+
+
+</LinearLayout>
